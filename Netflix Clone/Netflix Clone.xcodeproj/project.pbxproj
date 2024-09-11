@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB9E59062C921EB400BE6CF7 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E59052C921EB400BE6CF7 /* CollectionViewTableViewCell.swift */; };
 		EBD9CACE2C90D81B00A6973F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CACD2C90D81B00A6973F /* AppDelegate.swift */; };
 		EBD9CAD02C90D81B00A6973F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CACF2C90D81B00A6973F /* SceneDelegate.swift */; };
 		EBD9CAD22C90D81B00A6973F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CAD12C90D81B00A6973F /* MainTabBarViewController.swift */; };
 		EBD9CAD72C90D81D00A6973F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CAD62C90D81D00A6973F /* Assets.xcassets */; };
 		EBD9CADA2C90D81D00A6973F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EBD9CAD92C90D81D00A6973F /* Base */; };
+		EBD9CAE32C90DC0100A6973F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CAE22C90DC0100A6973F /* HomeViewController.swift */; };
+		EBD9CAE52C90DC4E00A6973F /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CAE42C90DC4E00A6973F /* UpComingViewController.swift */; };
+		EBD9CAE72C90DC6900A6973F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CAE62C90DC6900A6973F /* SearchViewController.swift */; };
+		EBD9CAE92C90DC7E00A6973F /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD9CAE82C90DC7E00A6973F /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB9E59052C921EB400BE6CF7 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		EBD9CACA2C90D81B00A6973F /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD9CACD2C90D81B00A6973F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD9CACF2C90D81B00A6973F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		EBD9CAD62C90D81D00A6973F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBD9CAD92C90D81D00A6973F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBD9CADB2C90D81D00A6973F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD9CAE22C90DC0100A6973F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EBD9CAE42C90DC4E00A6973F /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		EBD9CAE62C90DC6900A6973F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EBD9CAE82C90DC7E00A6973F /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB9E59002C921E5C00BE6CF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E59052C921EB400BE6CF7 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB9E59012C921E6300BE6CF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EB9E59022C921E6900BE6CF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB9E59032C921E8500BE6CF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB9E59042C921E8B00BE6CF7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		EBD9CAC12C90D81B00A6973F = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +100,12 @@
 		EBD9CACC2C90D81B00A6973F /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				EB9E59042C921E8B00BE6CF7 /* Managers */,
+				EB9E59032C921E8500BE6CF7 /* Resources */,
+				EB9E59022C921E6900BE6CF7 /* Models */,
+				EB9E59012C921E6300BE6CF7 /* ViewModels */,
+				EB9E59002C921E5C00BE6CF7 /* Views */,
+				EBD9CAE12C90DBEA00A6973F /* Controllers */,
 				EBD9CACD2C90D81B00A6973F /* AppDelegate.swift */,
 				EBD9CACF2C90D81B00A6973F /* SceneDelegate.swift */,
 				EBD9CAD12C90D81B00A6973F /* MainTabBarViewController.swift */,
@@ -62,6 +114,17 @@
 				EBD9CADB2C90D81D00A6973F /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		EBD9CAE12C90DBEA00A6973F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBD9CAE22C90DC0100A6973F /* HomeViewController.swift */,
+				EBD9CAE42C90DC4E00A6973F /* UpComingViewController.swift */,
+				EBD9CAE62C90DC6900A6973F /* SearchViewController.swift */,
+				EBD9CAE82C90DC7E00A6973F /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD9CAE72C90DC6900A6973F /* SearchViewController.swift in Sources */,
 				EBD9CAD22C90D81B00A6973F /* MainTabBarViewController.swift in Sources */,
+				EB9E59062C921EB400BE6CF7 /* CollectionViewTableViewCell.swift in Sources */,
+				EBD9CAE92C90DC7E00A6973F /* DownloadsViewController.swift in Sources */,
 				EBD9CACE2C90D81B00A6973F /* AppDelegate.swift in Sources */,
+				EBD9CAE52C90DC4E00A6973F /* UpComingViewController.swift in Sources */,
 				EBD9CAD02C90D81B00A6973F /* SceneDelegate.swift in Sources */,
+				EBD9CAE32C90DC0100A6973F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
