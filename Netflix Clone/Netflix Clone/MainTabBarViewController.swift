@@ -14,10 +14,10 @@ class MainTabBarViewController: UITabBarController {
         super.viewDidLoad()
         
         view.backgroundColor = .green
-        let vc1 = HomeViewController()
-        let vc2 = UpComingViewController()
-        let vc3 = SearchViewController()
-        let vc4 = DownloadsViewController()
+        let vc1 = UINavigationController(rootViewController: HomeViewController())
+        let vc2 = UINavigationController(rootViewController: UpComingViewController())
+        let vc3 = UINavigationController(rootViewController: SearchViewController())
+        let vc4 = UINavigationController(rootViewController: DownloadsViewController())
 
         
         vc1.tabBarItem.image = UIImage(systemName: "house")
